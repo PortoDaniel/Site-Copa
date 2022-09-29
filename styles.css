@@ -2,9 +2,6 @@
     font-family:Verdana, Geneva, sans-serif;
     font-size:15px;    
 }
-.title{
-  font-size: 10px;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -73,17 +70,4 @@ li a:hover {
     background: rgb(255, 255, 255);
     color: #000; 
     border-color: #000;
-}
-footer{
-  position: absolute;
-    bottom: 0;
-    background-color: #630000;
-    color: #FFF;
-    width: 99%;
-    height: 20px;    
-    text-align: center;
-    line-height: 100px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
