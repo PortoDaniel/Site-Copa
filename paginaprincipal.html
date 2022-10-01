@@ -7,70 +7,26 @@
     <title>Copa do Mundo 2022</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        .title{
-             font-size: 25px;
-        }
-        .Header{
-          position:fixed;
-            bottom: 100;
-            left:0;
-            width:100%;
-            height: 10px;
-            background-color: #630000;
-            scroll-padding-top: 10px;
-        }
-        .footer{
-            position:relative;
-            bottom:0;
-            left:0;
-            width:100%;
-            height: 40px;
-        }
-        .Describe{
-            padding-left:0px;
-            padding-right: 70%;
-            word-spacing:0px;
-        }
-
-        .ImagemSenacFooter{
-            padding-top: 3%;
-            padding-left: 50%;
-            height: 100%;
-        }
-        img{
-            max-width: 100%;
-            max-height: 100%;
-            position: center;
-            object-fit: contain;
-
-        }
-        .Cabeçalho{
-
-            width: 1500px;
-        }
-
 
     </style>
 </head>
-
+<!--Cabeçalho -->
 <div class="Header">
     <body>
         <ul>
-            <li><a href="#">SELEÇÕES</a></li>              
-            <li><a href="#">ESTÁDIOS</a></li>
-            <li><a href="#">GRUPOS</a></li>
+            <li><a href="paginaselecoes.html">SELEÇÕES</a></li>              
+            <li><a href="paginaestadios.html">ESTÁDIOS</a></li>
         </ul>    
     </body>
 </div>
 <body>
     <!-- Titulo e Imagem Catar -->
-    <div class="Cabeçalho">
-        <img src="Logo-Catar-2022.jpg" alt="Foto da Logo da Copa do Catar"/>
+    <div class="Banner">
+        <img src="Banner-Catar.png" alt="Foto da Logo da Copa do Catar"/>
     </div>
-    <div class="Describe">
+    <div class="Catar">
         <br>
         <h1 id="title">Catar</h1><br>
-
         <a href="https://pt.wikipedia.org/wiki/Catar">
             <img src="Qatar.jpg"
             alt="Imagem de cima de Doha"
@@ -88,6 +44,7 @@
             A economia baseia-se, especialmente, na exportação de petróleo e gás natural, que juntos representam em torno de 50% do Produto Interno Bruto do país. De acordo com o Observatório da Complexidade Econômica, o Catar possui uma balança comercial positiva com saldo de US$30,7 bilhões.
         </p>
     </div>	
+    <!--Footer-->
     <div class="footer">
         <footer>
             <ul>
@@ -101,13 +58,14 @@
             </ul> 
 
         </footer>
-
+<!--Foto Senac-->
     </div>
     <div class="ImagemSenacFooter">
-        <img src="Senac.jpg" id="ImagemSenacFooter"
-        width="10%"
-        alt="Logo Senac"
-        >
+        <a href="https://www.df.senac.br/faculdade/">
+            <img src="Senac.png" id="ImagemSenacFooter"
+            width="30%"
+            alt="Logo Senac">
+        </a>
     </div>  
 </body>
 </html>
