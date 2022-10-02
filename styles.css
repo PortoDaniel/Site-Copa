@@ -1,6 +1,17 @@
 .title{
   font-size: 25px;
 }
+.SelecaoTitle{
+  font-size: 25px;
+  color: #000;
+  padding-right: 70%;
+  padding-left: 0%;
+  padding-top: 30%;
+  word-spacing:0px;
+}
+.FotoSelecao{
+  width: 300px;
+}
 .Header{
 position:fixed;
  bottom: 100%;
@@ -112,6 +123,16 @@ li a:hover {
     color: #000; 
     border-color: #000;
 }
+.ImagemGrupo{
+
+    text-align: center;
+    position: static;
+}
+
+.ImagemGrupo img {
+    max-width: 100%;
+}
+
 .footer{
   position:relative;
   bottom:0;
